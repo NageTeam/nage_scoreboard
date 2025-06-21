@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nage Scoreboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <img src="assets/logo.png" alt="Server Logo" class="logo-img" />
+      </div>
+      <div class="titles">
+        <h1>Nage Scoreboard</h1>
+        <p id="player-count">0/0 Players</p>
+      </div>
+      <div class="search-wrapper" id="search-wrapper">
+        <button id="search-toggle" class="search-toggle">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input id="search-input" class="search-input" type="text" placeholder="Search name or ID" />
+      </div>
+    </header>
+
+    <ul id="player-list" class="player-list"></ul>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

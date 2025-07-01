@@ -3,7 +3,7 @@ game 'gta5'
 lua54 'yes'
 
 author 'Nage Team - https://discord.gg/ddMtV2CwJj'
-description 'Nage Scoreboard'
+description 'Nage Scoreboard :)'
 version '1.0.0'
 
 client_scripts {
